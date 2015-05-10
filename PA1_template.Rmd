@@ -49,9 +49,11 @@ hist(steps, breaks= 10, xlim=c(0,25000), col= "wheat", main= "steps per day")
 Calculation of the mean number of steps per day.
 ```{r averaging_steps}
 meansteps <- mean(steps)
+mediansteps <- median(steps)
 ```
 The mean total number of steps taken per day, ignoring missing values, is: **`r format(meansteps)`**
 
+Median of the total number of steps: **`r mediansteps`**
 
 
 ## What is the average daily activity pattern?
